@@ -1,0 +1,46 @@
+@media only screen and (min-width: 40rem) {
+
+    header,
+    main,
+    nav,
+    footer {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+
+    #hamburger {
+        display: none;
+    }
+
+    nav {display: block;}
+    nav ul {display: flex; }
+
+
+    nav a {
+        border: none;
+        padding: .5rem 1.5rem;
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    nav li:last-child a {border: none;}
+
+
+
+    .sbs {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+/* end media query */
